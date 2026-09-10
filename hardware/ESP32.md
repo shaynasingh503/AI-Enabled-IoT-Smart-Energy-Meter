@@ -74,6 +74,5 @@ It will:
 - [ ] Sensor interfacing
 - [ ] Complete energy meter integration
 
-## 8. Notes
+<img width="405" height="582" alt="image" src="https://github.com/user-attachments/assets/18819cfc-862e-41e9-b0b8-6cf44f361c40" />
 
-This page will be updated as the project progresses.
