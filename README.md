@@ -48,6 +48,8 @@ Each software component has its own detailed page:
 ```text
 AC load → ACS712 + ZMPT101B → ESP32 → LCD / Serial Monitor / Blynk Dashboard
 ```
+
+See the detailed [System Architecture](architecture/System_Architecture.md) page for the diagram, data flow, Blynk mapping, and prototype Serial Monitor readings.
 ## Project status
 | Capability | Status |
 | --- | --- |
