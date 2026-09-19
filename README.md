@@ -36,9 +36,14 @@ Each component has its own detailed page:
 
 ## 💻 Software and IoT
 
-The ESP32 firmware is developed in Arduino IDE and uses the ESP32 Board Package, ACS712, ZMPT101B, LiquidCrystal_I2C, Blynk, WiFi, and EEPROM libraries. The Blynk dashboard receives Voltage (`V0`), Current (`V1`), Power (`V2`), and Energy Unit (`V3`).
+The ESP32 firmware is developed in Arduino IDE and uses the ESP32 Board Package, ACS712, ZMPT101B, LiquidCrystal_I2C, Blynk, WiFi, and EEPROM libraries.
 
-See the detailed [Software and IoT documentation](software/README.md) for installation, Blynk pin mapping, and safe firmware setup.
+Each software component has its own detailed page:
+
+- [Arduino IDE](software/Arduino_IDE.md)
+- [ESP32 Board Package](software/ESP32_Board_Package.md)
+- [Arduino Libraries](software/Arduino_Libraries.md)
+- [Blynk IoT Platform](software/Blynk_IoT_Platform.md)
 ## System architecture
 ```text
 AC load → ACS712 + ZMPT101B → ESP32 → LCD / Serial Monitor / Blynk Dashboard

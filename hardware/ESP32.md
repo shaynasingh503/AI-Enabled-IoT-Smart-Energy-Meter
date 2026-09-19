@@ -1,5 +1,9 @@
 # ESP32 Development Board
 
+![ESP32 development board mounted on the prototype breadboard](../assets/images/esp32-board.jpeg)
+
+*ESP32 development board used in the smart energy meter prototype.*
+
 ## 1. Overview
 
 The ESP32 is the main microcontroller used in this project. 
