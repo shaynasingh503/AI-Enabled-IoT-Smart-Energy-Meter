@@ -24,7 +24,15 @@
 | 16x2 I2C LCD | Local display |
 | Blynk Cloud | Remote dashboard |
 
-For complete component descriptions, connections, safety guidance, and the measurement relationship, see [Hardware documentation](hardware/README.md).
+## 🔧 Hardware Documentation
+
+Each component has its own detailed page:
+
+- [ESP32 Development Board](hardware/ESP32.md)
+- [ZMPT101B AC Voltage Sensor](hardware/ZMPT101B.md)
+- [ACS712 Current Sensor](hardware/ACS712.md)
+- [16×2 I2C LCD](hardware/LCD_16x2_I2C.md)
+- [AC Socket and Load](hardware/AC_Socket_and_Load.md)
 
 ## 💻 Software and IoT
 
