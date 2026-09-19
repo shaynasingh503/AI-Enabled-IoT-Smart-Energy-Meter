@@ -1,0 +1,12 @@
+tmp/
+rendered_paper/
+a11y_report*.json
+.env
+.env.*
+secrets.h
+credentials.h
+firmware/secrets.h
+.pio/
+build/
+Thumbs.db
+.DS_Store
