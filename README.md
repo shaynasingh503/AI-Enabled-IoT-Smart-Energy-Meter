@@ -23,6 +23,14 @@
 | ZMPT101B | Isolated AC voltage sensing |
 | 16x2 I2C LCD | Local display |
 | Blynk Cloud | Remote dashboard |
+
+For complete component descriptions, connections, safety guidance, and the measurement relationship, see [Hardware documentation](hardware/README.md).
+
+## 💻 Software and IoT
+
+The ESP32 firmware is developed in Arduino IDE and uses the ESP32 Board Package, ACS712, ZMPT101B, LiquidCrystal_I2C, Blynk, WiFi, and EEPROM libraries. The Blynk dashboard receives Voltage (`V0`), Current (`V1`), Power (`V2`), and Energy Unit (`V3`).
+
+See the detailed [Software and IoT documentation](software/README.md) for installation, Blynk pin mapping, and safe firmware setup.
 ## System architecture
 ```text
 AC load → ACS712 + ZMPT101B → ESP32 → LCD / Serial Monitor / Blynk Dashboard
