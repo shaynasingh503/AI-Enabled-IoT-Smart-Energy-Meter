@@ -64,9 +64,16 @@ Energy integration must use elapsed time: `energy_kWh += power_W × elapsed_seco
 Before using logged values for analysis, compare voltage, current, and energy against a trusted reference meter across several loads. This educational prototype is not a certified billing meter.
 ## Safety
 This project involves mains-related sensing. Do not use a breadboard, jumper wires, or exposed terminals as a permanent AC installation. Use suitable isolation, fusing, enclosure, strain relief, and qualified supervision. The ESP32 must receive only low-voltage sensor outputs.
-## Reports
-- [Prototype research report](output/pdf/Smart_Energy_Meter_Prototype_Research_Report.pdf)
-- [Research paper](AI_Enabled_IoT_Smart_Energy_Meter_Research_Paper.docx)
+## 📄 Project Reports
+
+The project documentation records the prototype design, ESP32 implementation, Blynk monitoring, preliminary measurements, and the planned predictive-energy-analysis path.
+
+| Report | Format | Description |
+| --- | --- | --- |
+| [ESP32 IoT Smart Energy Meter Research Paper](reports/ESP32_IoT_Smart_Energy_Meter_Research_Paper.pdf) | PDF | Formal project research paper and implementation overview |
+| [Prototype Research Report](output/pdf/Smart_Energy_Meter_Prototype_Research_Report.pdf) | PDF | Working-prototype evidence, measurements, calibration notes, and future roadmap |
+| [Preliminary Review](output/pdf/Smart_Energy_Meter_Preliminary_Review.pdf) | PDF | Initial project review document |
+| [Research Paper Source](AI_Enabled_IoT_Smart_Energy_Meter_Research_Paper.docx) | DOCX | Editable research-paper document |
 ## Team
 Shayna Singh · Rupali Patel · Bhavya Sharma  
 VIT Bhopal University
